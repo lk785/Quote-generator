@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+.container {
+  background-color: black;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-right: 20%;
+  margin-bottom: auto;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn_container {
+  margin-top: 2%;
+  text-align: center;
+}
+
+button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #da9022 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: rgb(107, 212, 75);
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+.quote {
+  margin-top: 5%;
+  color: white;
+  text-align: center; /* margin-left: 40%;
+  margin-right: 30%; */
+  font-size: 40px;
+}
+.author {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  color: #fbeee0;
+}
